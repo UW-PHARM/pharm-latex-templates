@@ -1,0 +1,52 @@
+% Options include portrait/landscape, and paper size (ArchD, ArchE)
+% Portrait mode is automatically two columns
+% Landscape mode is automatically three columns
+% The class will try to equalize the length of your columns
+\documentclass{pharmposter}
+\usepackage{lipsum}
+\usepackage{tikz}
+
+\title{Example Title with Lots of Buzzwords like Deep Learning!}
+% Don't use \and with this class
+\author{Kyle Daruwalla \\ {\Large(daruwalla@wisc.edu)} \\ Mikko Lipasti}
+
+\begin{document}
+	\begin{sectionbox}{An Example Section}
+		\lipsum[1-2]
+	\end{sectionbox}
+
+	\begin{sectionbox}{Another Example Section}
+		\lipsum[3]
+	\end{sectionbox}
+
+	\begin{sectionbox}{Another Example Section}
+		\lipsum[2]
+	\end{sectionbox}
+
+	\begin{sectionbox}{A Long Section}
+		\lipsum[2-5]
+	\end{sectionbox}
+
+	\begin{sectionbox}{A Figure!}
+		\begin{center}
+			\begin{tikzpicture}
+				\path[fill=yellow,draw=yellow!75!red] (0,0) circle (3in);
+				\fill[red] (45:10mm) circle (2mm);
+				\fill[red] (135:10mm) circle (2mm);
+				\draw[line width=1mm,red] (215:5mm) arc (215:325:5mm);
+			\end{tikzpicture}
+		\end{center}
+	\end{sectionbox}
+
+	\begin{sectionbox}{Another Section Here!}
+		\lipsum[4-5]
+	\end{sectionbox}
+
+	\begin{sectionbox}{Another Section There!}
+		\lipsum[6]
+	\end{sectionbox}
+
+	\begin{sectionbox}{Lots of Sections Everywhere!}
+		\lipsum[7-8]
+	\end{sectionbox}
+\end{document}
