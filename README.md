@@ -3,7 +3,7 @@
 LaTeX presentation and poster templates for PHARM members.
 
 ## Installation
-Change directories to your local TeX template root:^[1]
+Change directories to your local TeX template root:<sup>[[1]](#footnote1)</sup>
 ```
 $ cd <TeX root>/tex/latex
 ```
@@ -32,7 +32,7 @@ and different slide sizes. Find them by looking at the examples in the repo.
 
 -----
 
-[1]: Here are some common TeX template root folders:
-     - macOS: `~/Library/texmf/`
-     - Windows: `C:\Users\<username>\texmf\`
-     - Linux: `~/.texmf/`
+<a name="footnote1">[1]</a>: Here are some common TeX template root folders:
+- macOS: `~/Library/texmf/`
+- Windows: `C:\Users\<username>\texmf\`
+- Linux: `~/.texmf/`
