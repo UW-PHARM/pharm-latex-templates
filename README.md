@@ -21,7 +21,11 @@ $ sudo texhash
 The classes be used as follows:
 ```latex
 % for poster
-\documentclass{pharmposter}
+% size options include:
+%  ArchC30 (30x40), ArchC, ArchD, ArchE
+% other options: portrait, landscape
+% default: ArchE, landscape
+\documentclass[landscape, ArchC]{pharmposter}
 
 % for presentation
 \documentclass{beamer}
