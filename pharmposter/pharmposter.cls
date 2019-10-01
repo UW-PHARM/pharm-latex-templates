@@ -46,8 +46,8 @@
 \DeclareOption{frames}{\@framestrue}
 \DeclareOption{portrait}{\@portraittrue}
 \DeclareOption{landscape}{\@portraitfalse}
-\DeclareOption{ArchC30}{\pharmposter@setpapersize{30in}{40in}{2in}
-                      \pharmposter@scaling{0.9}{0.7}}
+\DeclareOption{ArchC30}{\pharmposter@setpapersize{30in}{40in}{4in}
+                        \pharmposter@scaling{0.9}{0.77}}
 \DeclareOption{ArchC}{\pharmposter@setpapersize{18in}{24in}{2in}
                       \pharmposter@scaling{0.7}{0.4}}
 \DeclareOption{ArchD}{\pharmposter@setpapersize{24in}{36in}{3.5in}
